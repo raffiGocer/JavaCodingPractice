@@ -3,7 +3,7 @@ package week2;
 public class PrintConsecutiveNumbers {
 
     public static void main(String[] args) {
-        int N = 20;  // Replace N with the positive integer you want to use
+        int N = 30;  // Replace N with the positive integer you want to use
 
         for (int i = 1; i <= N; i++) { // loop will run until it reaches the N number
             if (i % 2 == 0 && i % 3 == 0 && i % 5 == 0) { // if number divisible by 2, 3 and 5 it will print
