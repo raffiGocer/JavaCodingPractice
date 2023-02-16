@@ -5,7 +5,8 @@ public class MaxArray {
     // Method to find the maximum number in an int array
     public static int findMax(int[] arr) {
         // Initialize the maximum number as the first element of the array
-        int max = arr[0];
+       // int max = arr[0];
+        int max = Integer.MIN_VALUE;
 
         // Loop through the rest of the elements in the array
         for (int i = 1; i < arr.length; i++) {

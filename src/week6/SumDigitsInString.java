@@ -17,11 +17,7 @@ public class SumDigitsInString {
             System.out.println("Sum of digits in the string: " + sumOfDigits(str));
         }
 
-        /**
-         * Returns the sum of the digits in a string
-         * parameter str goes as input string in the method
 
-         */
         public static int sumOfDigits(String str) {
             int sum = 0;
             // Iterate through the string and add up the digits
